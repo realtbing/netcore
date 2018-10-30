@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  firstcore.webapi:
+    image: firstcorewebapi
+    build:
+      context: .
+      dockerfile: firstcore.webapi/Dockerfile
